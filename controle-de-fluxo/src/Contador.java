@@ -27,7 +27,7 @@ public class Contador {
 		
 		int contagem = parametroDois - parametroUm;
 		//realizar o for para imprimir os números com base na variável contagem
-        for (int contagemAtual = 1; contagemAtual < contagem; contagemAtual++) {
+        for (int contagemAtual = 1; contagemAtual <= contagem; contagemAtual++) {
             System.out.println("Imprimindo o número: " + contagemAtual);
         }
 	}
