@@ -1,18 +1,28 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**README (Português)**
 
-## Folder Structure
+# Contador Java
 
-The workspace contains two folders by default, where:
+Este é um programa simples em Java que permite contar e imprimir números em uma sequência. O programa solicita dois parâmetros do usuário e, em seguida, imprime os números entre esses dois parâmetros.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como usar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Compile o programa em sua IDE Java favorita ou utilizando o comando `javac Contador.java` no terminal.
+2. Execute o programa com o comando `java Contador`.
+3. Siga as instruções no terminal para inserir os dois parâmetros.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Certifique-se de que o segundo parâmetro seja maior que o primeiro. Caso contrário, uma exceção será lançada.
 
-## Dependency Management
+**README (English)**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Java Counter
+
+This is a simple Java program that allows you to count and print numbers in a sequence. The program prompts the user for two parameters and then prints the numbers between these two parameters.
+
+## How to Use
+
+1. Compile the program in your favorite Java IDE or by using the `javac Counter.java` command in the terminal.
+2. Run the program with the `java Counter` command.
+3. Follow the instructions in the terminal to enter the two parameters.
+
+Make sure that the second parameter is greater than the first one. Otherwise, an exception will be thrown.
